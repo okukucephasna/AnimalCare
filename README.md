@@ -1,93 +1,44 @@
-Great! Here's a complete `README.md` file for your **AnimalCare** app:
+# AnimalCare – Animal Treatment App for Farmers
+
+!\[visitor badge] License: GPL v3
+
+**AnimalCare** is a mobile application designed to empower farmers by providing simple, fast, and accessible animal treatment advice—without needing to wait for a veterinary officer. In many rural areas, veterinary services are limited or delayed, which can put animal health at serious risk. AnimalCare helps bridge that gap by giving farmers actionable remedies and treatment tips based on common symptoms.
 
 ---
 
-````markdown
-# AnimalCare 🐄🐑🐓
+## Download
 
-**AnimalCare** is an intuitive mobile application built for farmers, livestock keepers, and agricultural extension workers. It empowers users to manage common animal illnesses through simplified treatment guidelines, preventive care tips, and offline access — reducing reliance on immediate veterinary availability.
-
----
-
-## 📱 Features
-
-- ✅ **Symptom Checker** — Input animal symptoms and get suggested treatments or actions.
-- 💊 **Treatment Guides** — Step-by-step instructions for common livestock illnesses.
-- 📚 **Preventive Care Tips** — Learn about vaccinations, hygiene, and feeding routines.
-- 🔍 **Animal Profiles** — Manage and track animals individually.
-- 📡 **Offline Support** — Access core features without an internet connection.
-- 🔒 **Secure Sign-in** — Firebase Authentication for safe access.
+You can download and install the app directly on your Android device and begin using it immediately.
 
 ---
 
-## 🚀 Tech Stack
+## Permissions
 
-- **Android (Kotlin)**
-- **Firebase** (Authentication, Realtime Database, Cloud Firestore)
-- **MVVM Architecture** (optional if using patterns)
-- **Jetpack Components** (LiveData, ViewModel, Navigation)
+To ensure all features work correctly, the app requests the following permission:
 
----
+* **INTERNET**: AnimalCare uses an internet connection to fetch updated treatment tips and submit user feedback.
 
-## 📦 Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/AnimalCare.git
-   cd AnimalCare
-````
-
-2. Open the project in **Android Studio**.
-
-3. Replace the `google-services.json` file with your own Firebase config (for security reasons, this file is ignored in `.gitignore`).
-
-4. Build and run on an emulator or physical Android device.
+No other permissions are required at this time.
 
 ---
 
-## 🔐 Firebase Setup
+## Software Requirements
 
-* Set up a project at [Firebase Console](https://console.firebase.google.com).
-* Enable **Email/Password Authentication**.
-* Add **Realtime Database** or **Firestore** for data storage.
-* Download your `google-services.json` and place it in `/app`.
-
-> **⚠️ NOTE**: Never commit `google-services.json` with active API keys to a public repo. Use `.gitignore` to protect it.
+* AnimalCare is an Android-based mobile application.
+* The app is lightweight and can run on most Android smartphones without requiring high-end specifications.
+* Requires an active internet connection to access the treatment database and resources.
+* Currently supports English only.
 
 ---
 
-## 🤝 Contribution
+## Screenshots
 
-Contributions are welcome! Here's how to get started:
-
-1. Fork this repository
-2. Create a new branch (`git checkout -b feature-xyz`)
-3. Make your changes
-4. Commit and push (`git push origin feature-xyz`)
-5. Submit a Pull Request
+<!-- Add your screenshots below -->
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 💡 Inspiration
-
-This app was inspired by the challenges faced by rural farmers who lack quick access to veterinary services. AnimalCare bridges this gap by giving farmers accurate, helpful, and practical knowledge at their fingertips.
-
----
-
-## 📬 Contact
-
-Created with ❤️ by [Cephas Okuku](mailto:okungusefa@gmail.com)
-
-```
-
----
-
-Would you like a version with markdown badges (e.g. for license, platform, Firebase)?
-```
+AnimalCare App Copyright (C) 2025 Cephas
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show w`.
+This is free software, and you are welcome to redistribute it under certain conditions; type `show c` for details.
